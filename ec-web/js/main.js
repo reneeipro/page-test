@@ -84,8 +84,8 @@ const populateModal = (target) => {
 const videoCard = ({id, src, name, location}) => `
   <div id="testimonial-${id}" class="w-1/2 md:w-1/3 lg:w-1/4 mb-8 px-4">
     <button class="modal-open block w-full z-10 border rounded-md overflow-hidden shadow-md">
-      <div class="aspect-16x9 relative bg-black">
-        <iframe class="absolute w-full h-full pointer-events-none" src="${src}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      <div class="embed-responsive aspect-ratio-16/9 bg-black">
+        <iframe class="pointer-events-none" src="${src}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </div>
       <div class="bg-white w-full p-4 text-left">
         <p class="name font-bold text-gray-800">${name}</p>
