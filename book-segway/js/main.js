@@ -14,7 +14,7 @@ function playVideo() {
   autoPlay.play();
 }
 
-var contents = $('#contents'); // Get header
+var contents = $('.contents'); // Get header
     contents.fadeOut(0);
 
 var fadeInContents = function(data) { // Fade header in on time
