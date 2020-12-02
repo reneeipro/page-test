@@ -1,0 +1,4 @@
+.DS_Store
+/countdown/
+node_modules
+.vscode
